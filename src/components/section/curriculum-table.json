@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_section_curriculum_tables",
+  "info": {
+    "displayName": "Curriculum Table"
+  },
+  "options": {},
+  "attributes": {
+    "tableName": {
+      "type": "string"
+    },
+    "tableLeftHeader": {
+      "type": "text"
+    },
+    "tableRightHeader": {
+      "type": "text"
+    },
+    "tables": {
+      "displayName": "Table",
+      "type": "component",
+      "repeatable": true,
+      "component": "section.table"
+    }
+  }
+}

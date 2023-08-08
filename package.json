@@ -8,13 +8,17 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "initial": "node utils/initialSQL",
+    "dump": "node utils/dumpSQL",
+    "import": "node utils/importSQL"
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.7.0",
-    "@strapi/plugin-users-permissions": "4.7.0",
     "@strapi/plugin-i18n": "4.7.0",
+    "@strapi/plugin-users-permissions": "4.7.0",
+    "@strapi/strapi": "4.7.0",
+    "dotenv": "^16.3.1",
     "mysql": "2.18.1"
   },
   "author": {

@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "curriculum_pages",
+  "info": {
+    "singularName": "curriculum-page",
+    "pluralName": "curriculum-pages",
+    "displayName": "Curriculum Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "displayName": "pageSEO",
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.page-seo"
+    },
+    "tables": {
+      "displayName": "Curriculum Table",
+      "type": "component",
+      "repeatable": true,
+      "component": "section.curriculum-table"
+    },
+    "curriculums": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::curriculum.curriculum"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_section_generals",
+  "info": {
+    "displayName": "General"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "sectionContent": {
+      "type": "richtext"
+    }
+  }
+}

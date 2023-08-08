@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_section_curriculum_sections",
+  "info": {
+    "displayName": "Curriculum Section"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "text"
+    },
+    "sectionLongDescription": {
+      "type": "text"
+    },
+    "sectionIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
